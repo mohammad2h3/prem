@@ -1,3 +1,4 @@
+#!/bin/sh
 counter=0
 while true; do
   if /home/hadoop/latest/bin/hadoop fs -ls /apps/hdtech/bds/quality-rt/dt=$DATE_YEST_FORMAT2 then
