@@ -1,6 +1,6 @@
 #!/bin/sh
 counter=0
-for (( ; ; )) 
+while true
 do
        counter=$((counter+1))
        echo "Tensorflow Packet created $counter time(s); / ??????? " 
